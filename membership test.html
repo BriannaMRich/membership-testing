@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Membership Chart</title>
+    <style>
+        .chart {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .bar {
+            display: inline-block;
+            background-color: blue;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chart">
+        <div class="bar" style="width: 25px;"></div>
+        <p class="label">&gt;&gt; 25 New members</p>
+    </div>
+    <div class="chart">
+        <div class="bar" style="width: 77px;"></div>
+        <p class="label">&gt;&gt; 77 Renewing members</p>
+    </div>
+    <div class="chart">
+        <div class="bar" style="width: 88px;"></div>
+        <p class="label">&gt;&gt; 88 At-risk members</p>
+    </div>
+    <div class="chart">
+        <div class="bar" style="width: 4px;"></div>
+        <p class="label">&gt;&gt; 4 Leaving members</p>
+    </div>
+    <div class="chart">
+        <div class="bar" style="width: 3px;"></div>
+        <p class="label">&gt;&gt; 3 Terminated members</p>
+    </div>
+</body>
+</html>
+```
+
+In this example, each bar is represented by a `<div>` element with the class `bar`, and the width of the bar is set using inline styles to correspond to the data values. The labels are displayed using `<p>` elements with the class `label`. The chart is displayed vertically with flex layout. You can adjust the styling and layout as needed to match your design preferences.
